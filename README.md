@@ -9,7 +9,7 @@ I don't suggest applying the process above mechanically. Because after the fixin
 However, the given process is highly referable for a real-world data cleaning. 
 
 ## check list 
-###1. import raw data into python        
+### 1. import raw data into python        
 **import `.csv`, `.tsv`, `.xlsx` using pandas**    
 :zap: set index? header?          
 > avoid setting the sampleID column to index at the data import stage. Because you may not be aware of the existence of duplicated ID. Setting index to duplicated row may lead to troubles. 
