@@ -1,8 +1,10 @@
 # data_cleaning
 data cleaning checklist &amp; relevant scripts in python3
 
-a general process from data cleaning with R.pdf
-![](https://github.com/CS0000/data_cleaning/blob/main/process.png)
+
+![a general process from data cleaning with R.pdf](https://github.com/CS0000/data_cleaning/blob/main/process.png)               
+
+
 This note will illustrate a more detailed checklist along with processing scripts, which will be demonstrated on an adjusted data based on Kaggle. 
 
 I don't suggest applying the process above mechanically. Because after the fixing and imputation, the normalizing result may have changed, which may introduces duplicated process. 
