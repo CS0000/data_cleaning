@@ -2,7 +2,7 @@
 data cleaning checklist &amp; relevant scripts in python3
 
 
-![a general process from data cleaning with R.pdf](https://github.com/CS0000/data_cleaning/blob/main/process.png)               
+![a general process from data cleaning with R](https://github.com/CS0000/data_cleaning/blob/main/process.png)               
 
 
 This note will illustrate a more detailed checklist along with processing scripts, which will be demonstrated on an adjusted data based on Kaggle. 
