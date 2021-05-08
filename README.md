@@ -18,7 +18,8 @@ However, the given process is highly referable for a real-world data cleaning.
 > avoid setting the sampleID column to index, or assume the first row to be header at the data import stage, unless you are fully aware that there are no repeated row or column names in the given data. Setting index to duplicated **columns** may lead to troubles in pandas. 
 
    
-### 2. check duplicated samples/observations/rows & features/columns
+### 2. check duplicated samples/observations/rows & features/columns    
+whether to remove the duplicated rows&columns, it depends. For completely identical rows&columns, it should be ok to remove them. but for 
 ### 3. use pandas_profiling to get an overall view    
 ### 4. fix data type
 data type: each column has a unique data type, numerical or categorical...      
