@@ -19,7 +19,13 @@ However, the given process is highly referable for a real-world data cleaning.
 
    
 ### 2. check duplicated samples/observations/rows & features/columns    
-whether to remove the duplicated rows&columns, it depends. For completely identical rows&columns, it should be ok to remove them. but for 
+whether to remove the duplicated rows&columns, it depends. For completely identical rows&columns, it generally should be fine to remove them. However, for those columns/rows with duplicated column/row names but different values, 
+it would be treated more prudently. Communicating with the data collectors and decide which row/column to remove.     
+
+All the processes, like deleting or modifying the value in the tables, should be recorded in scripts, and a data cleaning log file. (...and inform your supervisors too.)
+
+The demonstrating jupyter notebook only elaborate the situation with two duplicated rows/columns.
+
 ### 3. use pandas_profiling to get an overall view    
 ### 4. fix data type
 data type: each column has a unique data type, numerical or categorical...      
