@@ -26,6 +26,8 @@ All the processes, like deleting or modifying the value in the tables, should be
 
 The demonstrating jupyter notebook only elaborate the situation with two duplicated rows/columns.
 
+Then it's supposed to get a dataframe with unique rows and columns names. 
+
 ### 3. use pandas_profiling to get an overall view    
 ### 4. fix data type
 data type: each column has a unique data type, numerical or categorical...      
