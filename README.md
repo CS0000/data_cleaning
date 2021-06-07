@@ -26,10 +26,12 @@ All the processes, like deleting or modifying the value in the tables, should be
 
 The demonstrating jupyter notebook only elaborate the situation with two duplicated rows/columns.
 
-Then it's supposed to get a dataframe with unique rows and columns names. 
+Then it's supposed to get a dataframe with unique rows and columns names.
 
 ### 3. use pandas_profiling to get an overall view    
 pandas_profiling is a very useful tool to demonstrate the distribution and general pattern of data.    
+use pandas_profiling to figure out a general view of data, like the percentage of missing values, the proportion of different data types (categorical or numerical), etc.
+It can be very helpful to check if the data type for each variable is correct, as well as giving a general overview of data, as long as the data types are reasonable.
 
 ### 4. fix data type
 data type: each column has a unique data type, numerical or categorical...      
