@@ -32,13 +32,13 @@ Then it's supposed to get a dataframe with unique rows and columns names.
 pandas_profiling is a very useful tool to demonstrate the distribution and general pattern of data.    
 use pandas_profiling to figure out a general view of data, like the percentage of missing values, the proportion of different data types (categorical or numerical), etc.
 It can be very helpful to check if the data type for each variable is correct, as well as giving a general overview of data, as long as the data types are reasonable.
+For example, if the variable "age" presented to be a categorical data type, it would alarm you that maybe there are some string characters mixed in this column, and you will go to check.
 
 ### 4. fix data type
-data type: each column has a unique data type, numerical or categorical...      
-fix data type if inconsistency detected       
-record the change process, both in scripts, and a readme file    
-time variable     
-string characters: trim leading or tailing spaces
+- data type: each column has a unique data type, numerical or categorical. After step 3 you may detect the inconsistency of data types through output.         
+- It would be better to record the change process, both in scripts, and a readme file.   
+- Although not mentioned in the demonstrated notebook, time variable also should be concerned if necessary.      
+- In some dirty data set, the string characters may have leading or trailing blank, which may cause trouble to the downstream analysis.            
 
 
 ### 4. summarize missing data
