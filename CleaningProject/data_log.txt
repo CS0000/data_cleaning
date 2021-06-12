@@ -1,0 +1,22 @@
+-raw_data
+--HF_fake_v1.csv  |raw data
+
+-processed_data
+
+################## script #########################
+process.ipynb
+* address duplicated columns: remain the second column
+age: duplicated column names, with identical contents
+high_blood_pressure: duplicated column names, with not identical contents
+
+* address duplicated rows: remain 9,68,107 rows
+s9: duplicated row names, with identical contents
+s67: duplicated row names, with not identical contents
+s106: duplicated row names, with not identical contents
+
+* fix data type
+s16 age 82 year --> 82
+s285  age 77 years --> 77
+s162 platelets  0,174000 --> 174000
+
+
